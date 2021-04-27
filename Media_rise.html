@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  	<meta charset="utf-8">
+    <title>Rise of Darkness Page</title>
+		<link rel="stylesheet" href="css\mi_estilo_media.css">
+		<script src=”media\mi_codigo.js”></script>
+	</head>
+  <body>
+	<div id="agrupar">
+            <nav id="menu">
+                    <ul>
+                      <li><a href="Index.html">Inicio</a></li>
+                      <li><a href="Gallery_rise.html">Galería</a></li>
+                      <li><a href="Media_rise.html">Media</a></li>
+                      <li><a href="Media_rise.html#contacto">Contacto</a></li>
+                      <li><a href="Store_rise.html">Tienda</a></li>
+                    </ul>
+            </nav>
+  	    <header id="cabecera">
+             <img src="img\riselogo.png" alt="">
+			<audio src="media\Rise_song_1.mp3" controls="controls" type="audio/mpeg" preload="preload">
+			</audio>
+		</header>
+    <div id="agrupar">
+        <section id="artband">
+                <article>
+                   <header>
+                      <hgroup>
+                         <h1>Band art</h1>
+                         <h4>Rise of Darkness, 2020</h4>
+                      </hgroup>
+                    </header><br>
+                    
+                    <div class="reproductordevideo">
+                        <video width="620" controls>
+                            <source src="media\Rise_video_mp4.mp4" type="video/mp4">
+                            Tu navegador no soporta los vídeos de HTML5
+                        </video>
+                    </div> 
+
+                    <div class="galleryartrise">
+                        <a target="_blank" href="img\1_Diary.png">
+                            <img src="img\1_Diary.png" alt="Arte1" width="620">
+                        </a>
+                        <div class="desc"><em>Diary of a deadman</em></div>
+                    </div>
+
+                    <div class="galleryartrise">
+                        <a target="_blank" href="img\2_Soul.png">
+                            <img src="img\2_Soul.png" alt="Arte2" width="620">
+                        </a>
+                        <div class="desc"><em>Soul Domain</em></div>
+                    </div>
+
+                    <div class="galleryartrise">
+                        <a target="_blank" href="img\3_Trail.png">
+                            <img src="img\3_Trail.png" alt="Arte3" width="620">
+                        </a>
+                        <div class="desc"><em>Trail of Pain Clean</em></div>
+                    </div>
+
+                    <div class="galleryartrise">
+                        <a target="_blank" href="img\4_Beyond.png">
+                            <img src="img\4_Beyond.png" alt="Arte4" width="620">
+                        </a>
+                        <div class="desc"><em>From Beyond</em></div>
+                    </div>
+
+                    <div class="galleryartrise">
+                        <a target="_blank" href="img\5_Clones.png">
+                            <img src="img\5_Clones.png" alt="Arte5" width="620">
+                        </a>
+                        <div class="desc"><em>Human Behavior</em></div>
+                    </div>
+                    
+                    <div class="galleryartrise">
+                        <a target="_blank" href="img\6_Denial.png">
+                            <img src="img\6_Denial.png" alt="Arte6" width="620">
+                        </a>
+                        <div class="desc"><em>Denial of Our Fears</em></div>
+                    </div>
+
+                    <div class="galleryartrise">
+                        <a target="_blank" href="img\7_Faith.png">
+                            <img src="img\7_Faith.png" alt="Arte7" width="620">
+                        </a>
+                        <div class="desc"><em>The Faith</em></div>
+                    </div>
+
+                    <div class="galleryartrise">
+                        <a target="_blank" href="img\8_Grand.png">
+                            <img src="img\8_Grand.png" alt="Arte1" width="620">
+                        </a>
+                        <div class="desc"><em>The Grand Chaos</em></div>
+                    </div>
+                </article>
+                <article>
+                    
+                        <header>
+                            <h2 id="contacto">Contacto</h2>
+                                <!--Ojo: Este es el formulario de contacto-->
+                                <div class="contact_form">
+
+                                    <div class="formulario">            
+                                  <h1>Formulario de contacto</h1>
+                                            <h3>Escríbenos y en breve nos pondremos en contacto contigo</h3>
+                            
+                            
+                                                <form action="submeter-formulario.php" method="post">               
+                            
+                                                    
+                                                            <p>
+                                                                <label for="nombre" class="colocar_nombre">Nombre
+                                                                    <span class="obligatorio">*</span>
+                                                                </label>
+                                                                    <input type="text" name="introducir_nombre" id="nombre" required="obligatorio" placeholder="Escribe tu nombre">
+                                                            </p>
+                                                        
+                                                            <p>
+                                                                <label for="email" class="colocar_email">Email
+                                                                    <span class="obligatorio">*</span>
+                                                                </label>
+                                                                    <input type="email" name="introducir_email" id="email" required="obligatorio" placeholder="Escribe tu Email">
+                                                            </p>
+                                                    
+                                                            <p>
+                                                                <label for="telefone" class="colocar_telefono">Teléfono
+                                                                </label>
+                                                                    <input type="tel" name="introducir_telefono" id="telefono" placeholder="Escribe tu teléfono">
+                                                            </p>        
+                                                        
+                                                            <p>
+                                                                <label for="website" class="colocar_website">Sitio web
+                                                                </label>
+                                                                    <input type="url" name="introducir_website" id="website" placeholder="Escribe la URL de tu web">
+                                                            </p>        
+                                                        
+                                                            <p>
+                                                                <label for="asunto" class="colocar_asunto">Asunto
+                                                                    <span class="obligatorio">*</span>
+                                                                </label>
+                                                                    <input type="text" name="introducir_asunto" id="assunto" required="obligatorio" placeholder="Escribe un asunto">
+                                                            </p>        
+                                                        
+                                                            <p>
+                                                                <label for="mensaje" class="colocar_mensaje">Mensaje
+                                                                    <span class="obligatorio">*</span>
+                                                                </label>                     
+                                                                  <textarea name="introducir_mensaje" class="texto_mensaje" id="mensaje" required="obligatorio" placeholder="Deja aquí tu comentario..."></textarea> 
+                                                            </p>                                    
+                                                        
+                                                            <button type="submit" name="enviar_formulario" id="enviar"><p>Enviar</p></button>
+                            
+                                                            <p class="aviso">
+                                                                <span class="obligatorio"> * </span>los campos son obligatorios.
+                                                            </p>                    
+                                                    
+                                                </form>
+                                    </div>  
+                                </div>
+                            <!--Aquí termina el formulario-->
+                         </header>
+                    
+                </article>
+         </section>
+    </div>
+    <aside id="columna">
+        <blockquote>Género: Death metal técnico, melódico, progresivo.<br>
+            Orígen: CDMX. Producciones: TransitionsI (2011), Segunda entrega (2020)<br>
+            Alineación: Leobardo Rosas (guitar), David Fernández (guitar) y Javier Morales (drums)<br>
+            Influencias: The Doors, Deep Purple, Led Zeppelin, Black Sabbath, Judas Priest, Iron Maiden, Testament, Death...<br>
+            INFORMACIÓN DE CONTACTO:<br>
+                Cell Phone: 55 3673 5696<br>
+            <div class="social-media">
+                <a href="https://www.facebook.com/RiseDarkness/" target="_blank"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
+            </div>
+        </blockquote>	
+
+        <div class="gallerytshirt">
+            <a href="Store_rise.html" target="_blank">
+                <img src="img\Cupcoffe_rise.png" alt="Taza1" width="220">
+            </a>
+            <div class="desc">Taza, modelo 1</div>
+        </div>
+
+        <div class="gallerytshirt">
+            <a href="Store_rise.html" target="_blank">
+                <img src="img\Pass_rise_1.png" alt="Pase1" width="220">
+             </a>
+            <div class="desc">Pase, modelo 1</div>
+        </div>
+
+        <div class="gallerytshirt">
+            <a href="Store_rise.html" target="_blank">
+                 <img src="img\Poster_rise_2.png" alt="Poster2" width="220">
+             </a>
+        <div class="desc">Poster, modelo 1</div>
+    </aside>
+    <footer id="pie">
+            <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/"><img alt="Licencia Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-nd/4.0/88x31.png" /></a><br />Esta obra está bajo una <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/">Licencia Creative Commons Atribución-NoComercial-SinDerivadas 4.0 Internacional</a><p>
+    </footer>
+    </div>
+<script src="https://kit.fontawesome.com/6503f43706.js" crossorigin="anonymous"></script>   
+</body>
+</html> 
