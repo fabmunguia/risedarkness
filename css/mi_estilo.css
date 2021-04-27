@@ -5,7 +5,7 @@
 
 }body {
 	text-align: center;
-	font-family: Myriad,Palatino Linotype, Book Antiqua, Palatino, serif;
+	font-family: Palatino Linotype, Book Antiqua, Palatino, serif;
 	color: #ffffff;
 	/*background-color: #4f4d4d;*/
 	background-color: #000000;
@@ -78,7 +78,6 @@ a:link, a:visited, a:active {
 	float: left;
 	width: 660px;
 	margin: 20px;
-	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 #seccion img{
